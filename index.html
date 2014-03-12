@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Multiuserchat : A multi user chat application in java with public chating, private chating, group chating options" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Multiuserchat</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/pranayaggarwal25/MultiUserChat">View on GitHub</a>
+
+          <h1 id="project_title">Multiuserchat</h1>
+          <h2 id="project_tagline">A multi user chat application in java with public chating, private chating, group chating options</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/pranayaggarwal25/MultiUserChat/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/pranayaggarwal25/MultiUserChat/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-my-github-page-of-java-gui-chat-client-project" class="anchor" href="#welcome-to-my-github-page-of-java-gui-chat-client-project"><span class="octicon octicon-link"></span></a>Welcome to My GitHub Page of Java GUI Chat Client Project.</h3>
+
+<p>This java Chat client shows the layman way to develop a chat application in java with public chating, private chating, group chating options options.</p>
+
+<p>To run Chat Client in terminal, browse to src folder and type the following or run project through IDE-</p>
+
+<pre><code>javac ChatServer.java 
+java ChatServer
+</code></pre>
+
+<ul>
+<li> Enter port number in input dialog for eg: 9000</li>
+<li> Maximum 3 connections accepted which is a pre-defined number</li>
+</ul><p>To run Chat Client in terminal, browse to src folder and type the following or run project through IDE-</p>
+
+<pre><code>javac ChatClient.java 
+java ChatClient
+</code></pre>
+
+<ul>
+<li> Enter ip address of server, port number on which connection is opened.</li>
+<li> Enter your name in name input dialog.</li>
+<li> Type your messages and enter <strong>Send</strong> button.</li>
+<li> By default sent messages will be <strong>broadcasted</strong>
+</li>
+<li> To send private messages, type - <code>@&lt;receievername&gt; &lt;message&gt;</code>
+</li>
+<li> To send private messages to many users, type - <code>@&lt;receievername1&gt; &lt;receivername2&gt; ....&lt;receivernameN&gt;#&lt;message&gt;</code>
+</li>
+<li> To see list of online users - Press <strong>List of all Users</strong> button</li>
+<li> To quit chat room - type <strong>QUIT</strong>
+</li>
+</ul><p>This is what it looks like :)
+<img src="https://raw.github.com/pranayaggarwal25/projectImages/master/Screenshot.png" alt="You may open different clients by running different instances of Class"></p>
+
+<h3>
+<a name="client-connection-limit" class="anchor" href="#client-connection-limit"><span class="octicon octicon-link"></span></a>Client Connection Limit</h3>
+
+<p>Maximum number of chat clients is a hard-coded value (currently 3) in ChatServer. After that it doesn't create any connection queue, it simply keeps on rejecting all incoming requests till total number of connections are full.</p>
+
+<h3>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h3>
+
+<p>Hi All, Myself Pranay Kumar Agrawal (IIT Roorkee CSE '13). This was my first project over Github and first assessment in Java :) Apologies if any trouble arises up with the code.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Multiuserchat maintained by <a href="https://github.com/pranayaggarwal25">pranayaggarwal25</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
